@@ -3,7 +3,7 @@
 let users = [
   {
     profilePic:
-      "/images/sushma9.jpg",
+      "images/sushma9.jpg",
     displayPic:
       "images/Sushma1.jpg",
     pendingMeassage: 4,
@@ -16,9 +16,9 @@ let users = [
   },
   {
     profilePic:
-      "/images/sushma9.jpg",
+      "images/sushma9.jpg",
     displayPic:
-      "/images/Sushma2.jpg",
+      "images/Sushma2.jpg",
     pendingMeassage: 6,
     location: "Mumbai, India",
     name: "Shushu",
@@ -29,9 +29,9 @@ let users = [
   },
   {
     profilePic:
-      "/images/sushma9.jpg",
+      "images/sushma9.jpg",
     displayPic:
-      "/images/Sushma3.jpg",
+      "images/Sushma3.jpg",
     pendingMeassage: 3,
     location: "Mumbai, India",
     name: "Pyari",
@@ -42,9 +42,9 @@ let users = [
   },
   {
     profilePic:
-      "/images/sushma9.jpg",
+      "images/sushma9.jpg",
     displayPic:
-      "/images/Sushma7.jpg",
+      "images/Sushma7.jpg",
     pendingMeassage: 14,
     location: "Mumbai, India",
     name: "Kitkat",
@@ -55,9 +55,9 @@ let users = [
   },
   {
     profilePic:
-      "/images/sushma10.jpg",
+      "images/sushma10.jpg",
     displayPic:
-      "/images/Sushma5.jpg",
+      "images/Sushma5.jpg",
     pendingMeassage: 15,
     location: "Mumbai, India",
     name: "Sona",
@@ -68,9 +68,9 @@ let users = [
   },
    {
     profilePic:
-      "/images/sushma10.jpg",
+      "images/sushma10.jpg",
     displayPic:
-      "/images/Sushma6.jpg",
+      "images/Sushma6.jpg",
     pendingMeassage: 15,
     location: "Mumbai, India",
     name: "Sonu",
@@ -81,9 +81,9 @@ let users = [
   },
   {
     profilePic:
-      "/images/sushma10.jpg",
+      "images/sushma10.jpg",
     displayPic:
-      "/images/Sushma4.jpg",
+      "images/Sushma4.jpg",
     pendingMeassage: 15,
     location: "Mumbai, India",
     name: "Bachi....",
@@ -94,9 +94,9 @@ let users = [
   },
     {
     profilePic:
-      "/images/sushma10.jpg",
+      "images/sushma10.jpg",
     displayPic:
-      "/images/Sushma8.jpg",
+      "images/Sushma8.jpg",
     pendingMeassage: 15,
     location: "Mumbai, India",
     name: "Princess",
