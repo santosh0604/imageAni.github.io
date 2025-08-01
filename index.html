@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .detailscontainer {
+        background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.9));
+      }
+      /* https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzF8fHBvcnRyYWl0fGVufDB8fDB8fHww */
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="w-full h-screen bg-black font-['Gilroy']">
+      <div class="imagecontainer w-full h-screen relative overflow-hidden">
+        <div
+          class="maincard w-[130%] z-[3] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 h-[130%]"
+        >
+          <img src="" class="w-full h-full object-cover" alt="" />
+        </div>
+        <div
+          class="incomingcard w-[130%] z-[2] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 h-[130%]"
+        >
+          <img class="w-full h-full object-cover" src="" alt="" />
+        </div>
+      </div>
+      <div
+        class="absolute top-0 z-[4] w-full h-screen flex flex-col justify-between"
+      >
+        <div class="navbar flex justify-between items-center text-white">
+          <div
+            class="prflimg w-[3.5rem] overflow-hidden h-[3.5rem] rounded-full"
+          >
+            <img src="" class="w-full h-full object-cover" alt="" />
+          </div>
+          <h3 class="capitalize  text-3xl tracking-tighter font-medium">
+            Photos
+          </h3>
+          <div
+            class="chaticon relative rounded-full flex items-center justify-center w-[3rem] h-[3rem] bg-white/20"
+          >
+            <i class="ri-chat-3-fill opacity-80"></i>
+            <div
+              class="badge flex items-center justify-center w-5 rounded-full absolute top-0 right-0 -translate-y-[5px] translate-x-[3px] w-5 bg-red-500"
+            >
+              <h5 class="text-[13px] font-medium">5</h5>
+            </div>
+          </div>
+        </div>
+        <div class="detailscontainer w-full">
+          <div class="details px-5 py-6 w-full">
+            <div class="element location flex gap-4">
+              <i
+                class="w-[1.6rem] h-[1.6rem] bg-white flex items-center justify-center rounded-full font-semibold ri-corner-left-up-line"
+              ></i>
+              <h3 class="text-white">USA, California</h3>
+            </div>
+            <div class="element name flex gap-5 text-white mt-1">
+              <h1 class="text-7xl tracking-tighter font-regular">Victoria</h1>
+              <h1 class="text-7xl tracking-tighter font-regular opacity-60">
+                20
+              </h1>
+            </div>
+            <div class="element tags flex gap-3 text-white mt-4"></div>
+            <!-- <div class="element bio text-white/80 mt-5">
+              <h3 class="text-xl">Bio</h3>
+              <p class="text-lg mt-3"></p>
+            </div> -->
+            <div class="element flex gap-1 mt-10 items-start">
+              <button class="deny py-3 rounded-xl w-1/2 bg-white">
+                <i class="ri-close-line font-semibold text-3xl"></i>
+              </button>
+              <button class="accept py-3 w-1/2 rounded-xl bg-[#FC5149]">
+                <i
+                  class="ri-heart-2-fill text-white font-semibold text-3xl"
+                ></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
