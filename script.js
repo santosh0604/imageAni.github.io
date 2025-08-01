@@ -44,7 +44,7 @@ let users = [
     profilePic:
       "images/sushma9.jpg",
     displayPic:
-      "images/Sushma7.jpg",
+      "images/sushma7.jpg",
     pendingMeassage: 14,
     location: "Mumbai, India",
     name: "Kitkat",
@@ -57,7 +57,7 @@ let users = [
     profilePic:
       "images/sushma10.jpg",
     displayPic:
-      "images/Sushma5.jpg",
+      "images/sushma5.jpg",
     pendingMeassage: 15,
     location: "Mumbai, India",
     name: "Sona",
@@ -70,7 +70,7 @@ let users = [
     profilePic:
       "images/sushma10.jpg",
     displayPic:
-      "images/Sushma6.jpg",
+      "images/sushma6.jpg",
     pendingMeassage: 15,
     location: "Mumbai, India",
     name: "Sonu",
@@ -83,7 +83,7 @@ let users = [
     profilePic:
       "images/sushma10.jpg",
     displayPic:
-      "images/Sushma4.jpg",
+      "images/sushma4.jpg",
     pendingMeassage: 15,
     location: "Mumbai, India",
     name: "Bachi....",
@@ -96,7 +96,7 @@ let users = [
     profilePic:
       "images/sushma10.jpg",
     displayPic:
-      "images/Sushma8.jpg",
+      "images/sushma8.jpg",
     pendingMeassage: 15,
     location: "Mumbai, India",
     name: "Princess",
