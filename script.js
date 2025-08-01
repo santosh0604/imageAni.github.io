@@ -18,7 +18,7 @@ let users = [
     profilePic:
       "images/sushma9.jpg",
     displayPic:
-      "images/Sushma2.jpg",
+      "images/sushma2.jpg",
     pendingMeassage: 6,
     location: "Mumbai, India",
     name: "Shushu",
@@ -31,7 +31,7 @@ let users = [
     profilePic:
       "images/sushma9.jpg",
     displayPic:
-      "images/Sushma3.jpg",
+      "images/sushma3.jpg",
     pendingMeassage: 3,
     location: "Mumbai, India",
     name: "Pyari",
