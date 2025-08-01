@@ -3,7 +3,7 @@
 let users = [
   {
     profilePic:
-      "images/sushma9.jpg",
+      "/images/sushma9.jpg",
     displayPic:
       "images/Sushma1.jpg",
     pendingMeassage: 4,
